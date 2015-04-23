@@ -11,6 +11,9 @@
     "test": "tap --gc test/js/*-test.js",
     "rebuild-tests": "pangyp rebuild --directory test"
   },
+  "files": [
+    "include_dirs.js"
+  ]
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
     "Benjamin Byholm <bbyholm@abo.fi> (https://github.com/kkoopa/)",
